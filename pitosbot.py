@@ -6,6 +6,7 @@ import json
 #start
 def run_discord_bot():
     #client
+    #load token
     f = open('token.json', 'r', encoding='utf-8')
     data = json.load(f)
     TOKEN = data['token']
