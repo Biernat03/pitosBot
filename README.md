@@ -22,7 +22,7 @@
 
 ## About The Project
 
-PitosBot is easy dicord.py bot, that can moderate your server. The idea of this project is make simple python bot, to learn some of that programming language and make kind of usefull program. The bot is open source, so you can change it and make it better, if want.
+PitosBot is easy discord.py bot, that can moderate your server. The idea of this project is make simple python bot, to learn some of that programming language and make kind of usefull program. The bot is open source, so you can change it and make it better, if want.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

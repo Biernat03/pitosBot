@@ -17,9 +17,19 @@ def run_discord_bot():
     client = discord.Client(intents=intents)
     #on join
     on_join = True
-    on_join_channel = 1068874871808991344
+    #on_join_channel = 1068874871808991344
     on_leave = True
-    on_leave_channel = 1068874871808991344
+    #on_leave_channel = 1068874871808991344
+    
+    #load channels
+    f = open('config.json', 'r', encoding='utf-8')
+    data = json.load(f)
+    for i in data['channels']:
+        command_channel = i['command']
+        on_join_channel = i['on_join']
+        on_leave_channel = i['on_leave']
+    f.close()
+    
 #activity
     @client.event
     async def on_ready():
